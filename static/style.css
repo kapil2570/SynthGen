@@ -1,0 +1,37 @@
+
+.main-container {
+  min-height: 100vh;
+  background-image: url("./assets/bg-3.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.content-container {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #d04a02;
+  border-color: #d04a02;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #056c46;
+  border-color: #056c46;
+}
+
+.navbar .nav-link.active {
+  color: #d04a02 !important;
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    width: 95%;
+    padding: 2rem !important;
+  }
+}
